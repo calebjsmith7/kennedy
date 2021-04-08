@@ -12,6 +12,17 @@ class Services extends Component {
           <div className='sa'>
             <h1 className='satext'>ABOUT US</h1>
           </div>
+          <div className='saab'>
+            <div className='sb1'>
+            <h1 className='est'>Est. 1987</h1>
+            <h5 className='servinfo'>Kennedy Racecars is the premier stop for helping create and perfect your custom car dream. From design to finish, you can trust in the craftmanship, artistry, and attention to detail in creating a beautiful vehicle </h5>
+            </div>
+            <div className='sb2'>
+            <video autoPlay={false} autostart="false" loop={true} muted={false} preload="true" width="50%" >
+                    <source src="" type="video/mp4" ></source>
+                </video>
+            </div>
+          </div>
           <div className='sb'>
             <h1 className='spec'>Our Services</h1>
             <div className='boxes'>

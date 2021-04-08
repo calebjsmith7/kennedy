@@ -20,6 +20,7 @@ class Home extends Component {
                 <h1 className="info">At Kennedy Racecars <br/> we specialize in providing the highest quality <br/>
                 Restorations, Modifications, and Race Cars <br/>
                 and always exceed expectations</h1>
+    
             </div>
             <div className="c">
                 <a id="mods">
