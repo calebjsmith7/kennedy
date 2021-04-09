@@ -2,6 +2,7 @@
   text-align: center;
   font-family: 'Raleway', 'Montserrat';
   background-color: #ffffff;
+  overflow: hidden;
 }
 .n {
   padding-top: 1%;
@@ -118,7 +119,6 @@
   padding-top: 14%;
   color: #2b2b2b;
   font-weight: 400;
-  padding-bottom: 14%;
   font-size: 37px;
   font-family: 'Montserrat';
   font-style: italic;
@@ -144,6 +144,69 @@
     height: 60vh;
   }
 }
+hr {
+  width: 25%;
+  color: #2b2b2b;
+}
+/* gallery */
+.scrollsection {
+  height: 9vh;
+  background-color: #2b2b2b;
+}
+.gallery {
+  color: white;
+  text-align: left;
+  padding-left: 4%;
+  padding-top: 1%;
+}
+.scrolling-wrapper {
+  height: 65vh;
+  background-color: #2b2b2b;
+  flex-direction: row;
+  overflow-x: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding-left: 2.5%;
+  -webkit-overflow-scrolling: touch;
+}
+.bottomscroll {
+  height: 12vh;
+  background-color: #2b2b2b;
+}
+.card {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  margin-right: 1%;
+  margin-left: 3%;
+  flex: 0 0 auto;
+}
+.slide1 {
+  margin-left: 1%;
+}
+
+@media (max-width: 800px){
+  .card {
+    height: 250px;
+    width: 280px;
+  }
+  .scrolling-wrapper {
+    padding-left: 70%;
+  }
+  
+  .slide1 {
+    margin-left: -220%;
+  }
+  .slide1, .slide2, .slide3, .slide4, .slide5, .slide6 {
+    margin-right: 5%;
+  }
+  .gallery {
+    font-size: 6vh;
+  }
+}
+
+
 .c {
   background-image: url(./images/car1-7.jpeg);
 }
