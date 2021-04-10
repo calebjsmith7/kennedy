@@ -24,13 +24,13 @@ class Home extends Component {
             </div>
             <div className="scrollsection"><h1 className="gallery">Gallery</h1></div>
             <div className="scrolling-wrapper">
-                <div className="card slide1"></div>
-                <div className="card slide2"></div>
-                <div className="card slide3"></div>
-                <div className="card slide4"></div>
-                <div className="card slide5"></div>
-                <div className="card slide6"></div>
-                <div className="card slide7"></div>
+                <div className="cards slide1"></div>
+                <div className="cards slide2"></div>
+                <div className="cards slide3"></div>
+                <div className="cards slide4"></div>
+                <div className="cards slide5"></div>
+                <div className="cards slide6"></div>
+                <div className="cards slide7"></div>
             </div>
             <div className="bottomscroll"></div>
         
@@ -53,7 +53,6 @@ class Home extends Component {
                     <button className="designyours btn btn-light">DESIGN YOURS</button>
                 </a>
             </div>
-            <div className="f"></div>
         </div>
     );
   }

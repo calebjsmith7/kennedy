@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   font-family: 'Raleway', 'Montserrat';
-  background-color: #ffffff;
   overflow: hidden;
 }
 .n {
@@ -126,13 +125,14 @@
 
 @media (max-width: 800px) {
   .info {
-    font-size: 4vh;
+    font-size: 35px;
     margin-bottom: 7%;
   }
   .b {
     margin-top: -50% !important;
-    min-height: 30vh !important;
-    max-height: 200px !important;
+    height: 100vh;
+    min-height: 100vh;
+    vertical-align: center;
   }
 }
 @media (max-height: 600px) {
@@ -152,6 +152,9 @@ hr {
 .scrollsection {
   height: 9vh;
   background-color: #2b2b2b;
+  background-image: url(./images/bg.png);
+  background-size: cover;
+  background-position-y: 45%;
 }
 .gallery {
   color: white;
@@ -169,25 +172,36 @@ hr {
   flex-wrap: nowrap;
   padding-left: 2.5%;
   -webkit-overflow-scrolling: touch;
+  background-image: url(./images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 55%;
 }
 .bottomscroll {
   height: 12vh;
   background-color: #2b2b2b;
+  background-image: url(./images/bg.png);
+  background-size: cover;
+  background-position-y: 66%;
 }
-.card {
+.cards {
   height: 400px;
   width: 400px;
   margin: auto;
   margin-right: 1%;
   margin-left: 3%;
   flex: 0 0 auto;
+  background-color: transparent;
+  background-image: url(./images/kenlogowht.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .slide1 {
   margin-left: 1%;
 }
-
 @media (max-width: 800px){
-  .card {
+  .cards {
     height: 250px;
     width: 280px;
   }
@@ -216,9 +230,8 @@ hr {
 .e {
   background-image: url(./images/car2-7.jpeg);
 }
-.f {
-  background-image: url(./images/teamwlogo.JPG);
-}
+
+/* front titles and design now buttons */
 .mods {
   color: white;
   font-size: 8vh;
@@ -230,9 +243,15 @@ hr {
   margin-bottom: 5%;
   margin-top: 20%;
 }
-@media only screen and (max-width: 900px){
+@media (max-width: 800px){
+  .mods {
+    padding-top: 45%;
+  }
+
+}
+@media only screen and (max-width: 800px){
   .designyours {
-    margin-top: 25%;
+    margin-top: 18%;
   }
 }
 .contact-middle {
