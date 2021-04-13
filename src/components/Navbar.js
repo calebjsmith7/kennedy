@@ -25,7 +25,7 @@ const Navbar = ({title}) =>{
                 <a className="nav-item active left" href="/#mods">MODS</a>
                 <a className="nav-item active left" href="/#racecars">RACE CARS</a>
             </div>
-            <a class="navbar-brand title"><Link to ='/' className=""></Link></a>
+            <a className="navbar-brand title"><Link to ='/' className="faketitle">home</Link></a>
             <button className="navbar-toggler n ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -33,7 +33,7 @@ const Navbar = ({title}) =>{
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto n nbg">
                 <li className="nav-item active"><Link to='/' className="nav-link l">HOME <span className="sr-only">(current)</span></Link></li>
-                <li className="nav-item active"><Link to='/services' className="nav-link l">SERVICES</Link></li>
+                <li className="nav-item active"><Link to='/services' className="nav-link l">ABOUT US</Link></li>
                 <li className="nav-item active"><a href='/#restorations' className="nav-link l">RESTORATIONS</a></li>
                 <li className="nav-item active"><a href='/#mods' className="nav-link l">MODS</a></li>
                 <li className="nav-item active"><a href='/#racecars' className="nav-link l">RACE CARS</a></li>

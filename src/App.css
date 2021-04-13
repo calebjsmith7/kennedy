@@ -55,25 +55,27 @@
   text-decoration: none;
 }
 .title {
-  font-weight: bolder;
   position: absolute !important;
   left: 50%;
   transform: translateX(-50%);
   top: 6% !important;
   font-size: 23px !important;
-  font-family: 'Montserrat';
   text-decoration: none !important;
-  color: white;
+  color: transparent;
   background-image: url('./images/kenlogowht.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 12vh;
   width: 10vw;
-
+  text-decoration: none;
 }
- 
+.faketitle {
+  text-decoration: none;
+  color: transparent;
+  font-size: 40px;
+}
 .title :hover {
-  color: white;
+  color: transparent;
   text-decoration: none;
 }
 @media (max-width: 800px) {
@@ -173,7 +175,7 @@ hr {
   background-image: url(./images/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 59%;
+  background-position-y: 61%;
 }
 .bottomscroll {
   height: 12vh;
@@ -219,13 +221,14 @@ hr {
 
 
 .c {
-  background-image: url(./images/car1-7.jpeg);
+  background-image: url(./images/bluecar.jpg);
 }
 .d {
-  background-image: url(./images/track7.jpeg);
+  background-image: url(./images/car1-7.jpeg);
+  
 }
 .e {
-  background-image: url(./images/car2-7.jpeg);
+  background-image: url(./images/steeringwheel.jpg);
 }
 
 /* front titles and design now buttons */
@@ -380,7 +383,7 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position-y: 42%;
   width: 100vw;
   min-width: 100%;
   height: 100vh;
@@ -403,19 +406,27 @@ hr {
   text-align: left;
   display: flex;
 }
+.sb1 {
+  width: 50vw;
+}
 .sb2 {
-  width: 40vw;
+  width: 50vw;
+  background-image: url("./images/shawnprofile.jpg");
+  background-size: cover;
+  background-position-y: 25%;
 }
 .est {
-  margin-left: 2%;
-  font-size: 70px;
+  margin-left: 5%;
+  margin-top: 3%;
+  font-size: 68px;
   font-weight: 800;
 
 }
 .servinfo {
-  width: 40%;
-  font-size: 48px;
-  margin-left: 2%;
+  width: 75%;
+  font-size: 44px;
+  margin-left: 5%;
+  margin-top: 3%;
 }
 @media (max-width: 800px){
   .saab {
@@ -482,21 +493,21 @@ hr {
   height: 350px;
 }
 .b1 {
-  background-image: url(./images/car3-7.jpeg);
+  background-image: url(./images/welding.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   filter: grayscale(35%);
 }
 .b2 {
-  background-image: url(./images/car2-7.jpeg);
+  background-image: url(./images/grinding.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   filter: grayscale(35%);
 }
 .b3 {
-  background-image: url(./images/track7.jpeg);
+  background-image: url(./images/engine.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

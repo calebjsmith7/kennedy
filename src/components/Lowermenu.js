@@ -22,7 +22,7 @@ class Lowermenu extends Component {
               <li>|</li>
               <li><a href='/#racecars' className="fix">RACE CARS</a></li>
               <li>|</li>
-              <li><Link to='/services' className="fix">SERVICES</Link></li>
+              <li><Link to='/services' className="fix">ABOUT US</Link></li>
               <li>|</li>
               <li><Link to='/contact' className="fix">CONTACT</Link></li>
             </ul>

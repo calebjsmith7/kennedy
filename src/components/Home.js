@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
-import carvid from "../images/carvid.mp4";
+import kenvid from "../images/kenvid.mp4";
 
 class Home extends Component {
   constructor(props){
@@ -12,7 +12,7 @@ class Home extends Component {
         <div>
             <div className="a">
                 <video autoPlay={true} autostart="true" loop={true} muted={true} preload="true" id="background" width="100%" className="video">
-                    <source src={carvid} type="video/mp4" id="vid"></source>
+                    <source src={kenvid} type="video/mp4" id="vid"></source>
                 </video>
             </div>
             
@@ -36,21 +36,21 @@ class Home extends Component {
         
 
             <div className="c">
-                <a id="mods">
-                    <h3 className="mods">CUSTOM MODS</h3>
-                    <button className="designyours btn btn-light">DESIGN YOURS</button>
+                <a id="restorations">
+                    <h3 className="mods">RESTORATIONS</h3>
+                    <a href="/contact"><button className="designyours btn btn-light">DESIGN YOURS</button></a>
                 </a>
             </div>
             <div className="d">
-                <a id="restorations">
-                    <h3 className="mods">RESTORATIONS</h3>
-                    <button className="designyours btn btn-light">DESIGN YOURS</button>
+                <a id="mods">
+                    <h3 className="mods">CUSTOM MODS</h3>
+                    <a href="/contact"><button className="designyours btn btn-light">DESIGN YOURS</button></a>
                 </a>
             </div>
             <div className="e">
                 <a id="racecars">
                     <h3 className="mods">RACE CARS</h3>
-                    <button className="designyours btn btn-light">DESIGN YOURS</button>
+                    <a href="/contact"><button className="designyours btn btn-light">DESIGN YOURS</button></a>
                 </a>
             </div>
         </div>
