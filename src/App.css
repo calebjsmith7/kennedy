@@ -117,9 +117,9 @@
 }
 .info {
   margin: auto;
-  padding-top: 14%;
   color: #2b2b2b;
   font-weight: 400;
+  padding-top: 14%;
   font-size: 37px;
   font-family: 'Montserrat';
   font-style: italic;
@@ -130,6 +130,7 @@
     font-size: auto;
     margin: auto;
     overflow: auto;
+    padding-top: 0;
   }
   .b {
     margin-top: -50% !important;
@@ -184,6 +185,7 @@ hr {
   background-image: url(./images/bg.png);
   background-size: cover;
   background-position-y: 71%;
+  margin-top: -7%;
 }
 .cards {
   height: 450px;
