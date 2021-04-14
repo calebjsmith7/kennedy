@@ -19,8 +19,18 @@
   margin-right: 5%;
   padding-right: 1%;
 }
+
 .navbar-toggler {
   margin-right: 5%;
+}
+@media (max-width: 800px){
+  .nbg {
+    width: 60%;
+    margin-right: 5%;
+  }
+  .navbar-toggler {
+    margin-right: 5%;
+  }
 }
 .l {
   font-weight: bolder;
@@ -131,9 +141,12 @@
     margin: auto;
     overflow: auto;
     padding-top: 0;
+    font-size: 30px;
+    width: 80%;
+    margin-top: -8%;
   }
   .b {
-    margin-top: -50% !important;
+    margin-top: -80% !important;
     height: 100vh;
     min-height: 100vh !important;
     vertical-align: center;
@@ -221,6 +234,10 @@ hr {
   .gallery {
     font-size: 6vh;
   }
+  .bottomscroll {
+    margin-top: -10%;
+    height: 18vh;
+  }
 }
 
 
@@ -273,6 +290,7 @@ hr {
   height: 90vh;
   width: 50vw;
   text-align: center;
+  padding-top: 5%;
 }
 
 .contact {
@@ -460,7 +478,6 @@ hr {
   margin-top: 3%;
   font-size: 68px;
   font-weight: 800;
-
 }
 .servinfo {
   width: 75%;
@@ -470,18 +487,37 @@ hr {
 }
 @media (max-width: 800px){
   .saab {
-    height: 200px;
+    height: 150vh;
     text-align: center;
+    flex-direction: column;
   }
   .est {
-    font-size: 30px;
+    font-size: 35px;
     margin: auto;
     font-weight: 400;
+    width: 50%;
+    margin-top: 2%;
   }
   .servinfo {
-    width: 85%;
+    width: 90vw;
     margin: auto;
-    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+  }
+  .sb1 {
+    width: 95%;
+    order: 2;
+  }
+  .sb2 {
+    order: 1;
+    width: 100vw;
+    height: 80vh;
+    background-position-y: 8%;
+  }
+  .sa {
+    height: 40vh;
+    width: 90vw;
   }
 }
 .sb {
@@ -515,13 +551,16 @@ hr {
     justify-content: space-between;
   }
   .sb {
-    height: 280vh;
+    height: 230vh;
   }
   .triplebox, .b2, .b3 {
     margin-top: 25%;
   }
   .b1 {
     margin-top: 5%;
+  }
+  .subinfo {
+    color: transparent;
   }
 }
 .triplebox {
@@ -531,6 +570,12 @@ hr {
 .triplebox:hover {
   width: 400px;
   height: 350px;
+}
+@media (max-width: 800px){
+  .triplebox {
+    height: 50vh;
+    width: 90vw;
+  }
 }
 .b1 {
   background-image: url(./images/welding.jpg);
@@ -556,5 +601,11 @@ hr {
 .boxtext {
   font-size: 25px;
   margin-top: 350px;
+}
+@media (max-width: 800px){
+  .boxtext {
+    font-size: 22px;
+    margin-top: 300px;
+  }
 }
 
