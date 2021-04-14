@@ -11,8 +11,8 @@ class Home extends Component {
     return (
         <div>
             <div className="a">
-                <video autoPlay={true} autostart="true" loop={true} muted={true} preload="true" id="background" width="100%" className="video">
-                    <source src={kenvid} type="video/mp4" id="vid"></source>
+                <video playsInline webkit-playsinline autoPlay loop muted preload="true" id="background" width="100%" className="video">
+                    <source src={kenvid} playsinline type="video/mp4" id="vid"></source>
                 </video>
             </div>
             
