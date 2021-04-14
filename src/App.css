@@ -222,6 +222,7 @@ hr {
 }
 
 
+
 .c {
   background-image: url(./images/bluecar.jpg);
 }
@@ -231,6 +232,12 @@ hr {
 }
 .e {
   background-image: url(./images/steeringwheel.jpg);
+}
+@media (max-width: 800px){
+  .c {
+    background-image: url(./images/bluecartall.jpg);
+  }
+  
 }
 
 /* front titles and design now buttons */
@@ -256,6 +263,7 @@ hr {
     margin-top: 18%;
   }
 }
+/* contact */
 .contact-middle {
   color: rgb(196, 180, 147);
   font-weight: 800;
@@ -371,7 +379,8 @@ hr {
 }
 @media (max-width: 800px){
   .bottomlogo {
-    width: 50vw;
+    width: 25vw;
+    margin: auto;
   }
   .lower {
     height: 22vh;
@@ -380,6 +389,8 @@ hr {
   .cw {
     font-size: 2vw;
     order: 2;
+    width: 75%;
+    margin: auto;
   }
   .bottomright {
     width: 100vw;
@@ -387,6 +398,9 @@ hr {
     margin: auto;
     margin-left: -5%;
     order: 1;
+  }
+  .bottomlinks {
+    font-size: 9px;
   }
 
 }
