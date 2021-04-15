@@ -154,19 +154,23 @@
   margin: auto;
   color: #2b2b2b;
   font-weight: 400;
-  padding-top: 14%;
-  font-size: 37px;
+  padding-top: 18%;
+  font-size: 31px;
   font-family: 'Montserrat';
   font-style: italic;
+  width: 60%;
 }
-
+.binfoh {
+  padding-bottom: 9%;
+  border-color: #2b2b2b;
+}
 @media (max-width: 800px) {
   .info {
     font-size: 25px;
     margin: auto;
-    padding-top: 0;
+    padding-top: 10%;
+    padding-bottom: 1%;
     width: 88%;
-    
   }
   .b {
     height: auto;

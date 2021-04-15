@@ -19,10 +19,10 @@ class Home extends Component {
             </div>
             
             <div className="b">
-                <h1 className="info">At Kennedy Racecars <br/> we specialize in providing the highest quality <br/>
-                Restorations, Modifications, and Race Cars <br/>
+                <h1 className="info">At Kennedy Racecars we specialize in providing the highest quality
+                Restorations, Modifications, and Race Cars
                 and always exceed expectations</h1>
-            <hr/>
+            <hr className="binfoh"/>
             </div>
             <div className="scrollsection"><h1 className="gallery">Gallery</h1></div>
             <div className="scrolling-wrapper">
