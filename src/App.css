@@ -3,6 +3,9 @@
   font-family: 'Raleway', 'Montserrat';
   overflow: hidden;
 }
+
+/* navbar */
+
 .n {
   padding-top: 1%;
   padding-bottom: 1%;
@@ -99,12 +102,25 @@
     background-color: none;
   }}
 
+  /* home page */
+
 
 .video {
   size: contain;
   top: 0;
   left: 0;
   right: 0;
+}
+
+@media (min-width: 800px){
+  #smallvid {
+    display: none;
+  }
+}
+@media (max-width: 800px){
+  #bigvid {
+    display: none;
+  }
 }
 
 

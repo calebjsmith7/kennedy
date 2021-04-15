@@ -5,16 +5,16 @@ import kenvid from "../images/kenvid.mp4";
 import kensmallvid from "../images/kensmallvid.mp4";
 
 class Home extends Component {
-  constructor(props){
-    super(props);
-  }
+  
   render() {
     return (
         <div>
             <div className="a">
-                <video playsInline webkit-playsinline autoPlay loop muted preload="true" id="background" width="100%" className="video">
-                <source src={kensmallvid} playsinline type="video/mp4" id="vid" media="(max-width: 480px)"></source>
-                <source src={kenvid} playsinline type="video/mp4" id="vid"></source>
+                <video playsInline webkit-playsinline autoPlay loop muted preload="true" id="bigvid" width="100%" className="video">
+                <source src={kenvid} playsinline type="video/mp4" media="(min-device-width: 568px)"></source>
+                </video>
+                <video playsInline webkit-playsinline autoPlay loop muted preload="true" id="smallvid" width="100%" className="video">
+                <source src={kensmallvid} playsinline type="video/mp4" media="(max-device-width: 568px)"></source>
                 </video>
             </div>
             
