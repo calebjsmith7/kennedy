@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import kenvid from "../images/kenvid.mp4";
+import kensmallvid from "../images/kensmallvid.mp4";
 
 class Home extends Component {
   constructor(props){
@@ -12,7 +13,8 @@ class Home extends Component {
         <div>
             <div className="a">
                 <video playsInline webkit-playsinline autoPlay loop muted preload="true" id="background" width="100%" className="video">
-                    <source src={kenvid} playsinline type="video/mp4" id="vid"></source>
+                <source src={kensmallvid} playsinline type="video/mp4" id="vid" media="(max-width: 480px)"></source>
+                <source src={kenvid} playsinline type="video/mp4" id="vid"></source>
                 </video>
             </div>
             

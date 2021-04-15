@@ -106,9 +106,7 @@
   left: 0;
   right: 0;
 }
-@media (max-width: 800px){
-  video { height: 100vh; min-height: 100%; width: auto; }
-}
+
 
 .a,.b,.c,.d,.e,.f {
   width: 100vw;
@@ -123,13 +121,18 @@
     background-size: cover;
   }
 }
-
+@media (max-width: 800px){
+  .a {
+    overflow: hidden;
+  }
+}
 .b {
   height: 70vh;
   min-height: 70vh;
   background-color: #ffffff;
   overflow: hidden;
   margin-top: 0 !important;
+  z-index: 5;
 }
 .info {
   margin: auto;
@@ -256,7 +259,7 @@ hr {
 /* front titles and design now buttons */
 .mods {
   color: white;
-  font-size: 8vh;
+  font-size: 7vh;
   padding-top: 10%;
   font-weight: 400;
   font-family: 'Montserrat';
