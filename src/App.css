@@ -268,6 +268,16 @@ hr {
 @media (max-width: 800px){
   .c {
     background-image: url(./images/bluecartall.jpg);
+    background-attachment: scroll;
+  }
+  .d {
+    background-image: url(./images/yellowcar.jpg);
+    background-attachment: scroll;
+  }
+  
+  .e {
+    background-image: url(./images/smallsteering.jpg);
+    background-attachment: scroll;
   }
   
 }
@@ -410,32 +420,48 @@ hr {
   margin: auto;
   justify-content: space-evenly;
 }
+.horizsep {
+  display: none;
+}
 @media (max-width: 800px){
   .bottomlogo {
     width: 25vw;
-    margin: auto;
   }
   .lower {
-    height: 22vh;
+    height: auto;
     flex-direction: column;
   }
   .cw {
     font-size: 2vw;
     order: 2;
-    width: 75%;
-    margin: auto;
+    width: 95%;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
   .bottomright {
     width: 100vw;
-    padding-left: 0;
     margin: auto;
-    margin-left: -5%;
+    padding-left: 0;
+    margin-left: -8%;
+    text-align: left;
     order: 1;
+    flex-direction: column;
   }
   .bottomlinks {
-    font-size: 9px;
+    font-size: 2.3vw;
+    flex-direction: column;
+    margin-left: 1%;
   }
-
+  .vertsep {
+    display: none;
+  }
+  .horizsep {
+    display: flex;
+    width: 85vw;
+    margin: auto;
+  }
 }
 
 .fix {
