@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
+import { HashLink } from 'react-router-hash-link';
 
 
 class Lowermenu extends Component {
@@ -16,13 +17,13 @@ class Lowermenu extends Component {
           </div>
           <div className="bottomright">
             <ul className="bottomlinks">
-              <li><a href='/#restorations' className="fix">Restorations</a></li>
+              <li><HashLink to='/#restorations' className="fix">Restorations</HashLink></li>
               <li className="vertsep">|</li>
               <hr className="horizsep"></hr>
-              <li><a href='/#mods' className="fix">Mods</a></li>
+              <li><HashLink to='/#mods' className="fix">Mods</HashLink></li>
               <li className="vertsep">|</li>
               <hr className="horizsep"></hr>
-              <li><a href='/#racecars' className="fix">Race Cars</a></li>
+              <li><HashLink to='/#racecars' className="fix">Race Cars</HashLink></li>
               <li className="vertsep">|</li>
               <hr className="horizsep"></hr>
               <li><Link to='/services' className="fix">About Us</Link></li>
