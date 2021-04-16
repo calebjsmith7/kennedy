@@ -3,20 +3,24 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import kenvid from "../images/kenvid.mp4";
 import kensmallvid from "../images/kensmallvid.mp4";
+import { Link } from 'react-router-dom';
+
 
 class Home extends Component {
   
   render() {
     return (
         <div>
+            <a id="top">
             <div className="a">
                 <video playsInline webkit-playsinline autoPlay loop muted preload="true" id="bigvid" width="100%" className="video">
-                <source src={kenvid} playsinline type="video/mp4" media="(min-device-width: 568px)"></source>
+                <source src={kenvid} type="video/mp4" media="(min-device-width: 568px)"></source>
                 </video>
                 <video playsInline webkit-playsinline autoPlay loop muted preload="true" id="smallvid" width="100%" className="video">
-                <source src={kensmallvid} playsinline type="video/mp4" media="(max-device-width: 568px)"></source>
+                <source src={kensmallvid} type="video/mp4" media="(max-device-width: 568px)"></source>
                 </video>
             </div>
+            </a>
             
             <div className="b">
                 <h1 className="info">At Kennedy Racecars we specialize in providing the highest quality
@@ -40,19 +44,19 @@ class Home extends Component {
             <div className="c">
                 <a id="restorations">
                     <h3 className="mods">RESTORATIONS</h3>
-                    <a href="/contact"><button className="designyours btn btn-light">DESIGN YOURS</button></a>
+                    <Link to="/contact"><button className="designyours btn btn-light">DESIGN YOURS</button></Link>
                 </a>
             </div>
             <div className="d">
                 <a id="mods">
                     <h3 className="mods">CUSTOM MODS</h3>
-                    <a href="/contact"><button className="designyours btn btn-light">DESIGN YOURS</button></a>
+                    <Link to="/contact"><button className="designyours btn btn-light">DESIGN YOURS</button></Link>
                 </a>
             </div>
             <div className="e">
                 <a id="racecars">
                     <h3 className="mods">RACE CARS</h3>
-                    <a href="/contact"><button className="designyours btn btn-light">DESIGN YOURS</button></a>
+                    <Link to="/contact"><button className="designyours btn btn-light">DESIGN YOURS</button></Link>
                 </a>
             </div>
         </div>
