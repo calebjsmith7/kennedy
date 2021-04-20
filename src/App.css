@@ -7,8 +7,8 @@
 /* navbar */
 
 .n {
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   text-align: right;
 }
 .navv {
@@ -24,15 +24,27 @@
 }
 
 .navbar-toggler {
-  margin-right: 5%;
+  margin-right: 5%; 
 }
 .navbar-toggler:focus {
   outline: none !important;
 }
+.fa-bars {
+  color: white;
+  border: none;
+  font-size: 3.5vh;
+  height: auto;
+}
+.navbar-dark .navbar-toggler {
+  border: 0;
+}
+
 @media (max-width: 800px){
   .nbg {
-    width: 60%;
+    width: auto;
     margin-right: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
   }
   .navbar-toggler {
     margin-right: 5%;
@@ -55,9 +67,9 @@
   color: white;
   margin-left: 3%;
   margin-right: 3%;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 15px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
 @media only screen and (max-width: 900px){
@@ -74,7 +86,7 @@
   position: absolute !important;
   left: 50%;
   transform: translateX(-50%);
-  top: -3% !important;
+  top: 4% !important;
   font-size: 23px !important;
   text-decoration: none !important;
   color: transparent;
@@ -137,6 +149,7 @@
     background-size: cover;
   }
 }
+
 @media (max-width: 800px){
   .a {
     overflow: hidden;
@@ -157,19 +170,16 @@
   padding-top: 18%;
   font-size: 31px;
   font-family: 'Montserrat';
-  font-style: italic;
   width: 60%;
 }
 .binfoh {
-  padding-bottom: 9%;
   border-color: #2b2b2b;
 }
 @media (max-width: 800px) {
   .info {
     font-size: 25px;
     margin: auto;
-    padding-top: 10%;
-    padding-bottom: 1%;
+    padding: 1%;
     width: 88%;
   }
   .b {
@@ -177,6 +187,8 @@
     min-height: auto !important;
     vertical-align: center;
     margin-bottom: auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
   }
 }
 
@@ -186,19 +198,21 @@ hr {
 }
 /* gallery */
 .scrollsection {
-  height: 9vh;
-  background-image: url(./images/bg.png);
+  height: 10vh;
+  background-image: url(./images/gallerybg.jpg);
   background-size: cover;
-  background-position-y: 45%;
+  background-position-y: 28%;
 }
 .gallery {
   color: white;
   text-align: left;
   padding-left: 4%;
-  padding-top: 1%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  font-weight: 800;
 }
 .scrolling-wrapper {
-  height: 65vh;
+  height: 66vh;
   flex-direction: row;
   overflow-x: auto;
   display: flex;
@@ -206,14 +220,15 @@ hr {
   flex-wrap: nowrap;
   padding-left: 2.5%;
   -webkit-overflow-scrolling: touch;
-  background-image: url(./images/bg.png);
+  background-image: url(./images/gallerybg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 61%;
+  overflow-y: hidden;
 }
 .bottomscroll {
   height: 12vh;
-  background-image: url(./images/bg.png);
+  background-image: url(./images/gallerybg.jpg);
   background-size: cover;
   background-position-y: 71%;
   margin-top: -7%;
@@ -236,8 +251,8 @@ hr {
 }
 @media (max-width: 800px){
   .cards {
-    height: 250px;
-    width: 280px;
+    height: 220px;
+    width: 250px;
   }
   .scrolling-wrapper {
     padding-left: 70%;
@@ -250,11 +265,14 @@ hr {
     margin-right: 5%;
   }
   .gallery {
-    font-size: 6vh;
+    font-size: 6.5vh;
   }
   .bottomscroll {
     margin-top: -10%;
     height: 0;
+  }
+  .scrollsection {
+    background-position-y: 0%;
   }
 }
 
@@ -291,12 +309,18 @@ hr {
   color: white;
   font-size: 7vh;
   padding-top: 10%;
-  font-weight: 400;
-  font-family: 'Montserrat';
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
 }
 .designyours {
   margin-bottom: 5%;
   margin-top: 20%;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  color: black;
 }
 @media (max-width: 800px){
   .mods {
@@ -340,6 +364,8 @@ hr {
 }
 .contactpage {
   background-color: black;
+  height: auto;
+  padding-bottom: 3%;
 }
 .contact-left {
   width: 20vw;
@@ -350,8 +376,7 @@ hr {
   justify-content: center;
   align-items: flex-start;
   padding-top: 11vh;
-  height: 100%;
-  padding-bottom: 7vh;
+  
 }
 @media (max-width: 800px) {
   .allcontact {
@@ -362,11 +387,14 @@ hr {
     width: 100vw;
     text-align: center;
     order: 2;
-    margin-top: 35%;
+    margin-top: 25%;
+    padding-bottom: 10%;
   }
   .contact-middle {
-    width: 100vw;
+    width: 80vw;
     order: 1;
+    padding-bottom: 5%;
+    margin: auto;
   }
   .contact {
     padding-left: 2%;
@@ -390,7 +418,7 @@ hr {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  height: 10vh;
+  height: 20vh;
 }
 .bottomlogo {
   width: 10vw;
@@ -430,25 +458,28 @@ hr {
 @media (max-width: 800px){
   .bottomlogo {
     width: 25vw;
+    margin-left: 5%;
+    margin-bottom: 2%;
   }
   .lower {
     height: auto;
     flex-direction: column;
+    padding: 5%;
   }
   .cw {
-    font-size: 2vw;
+    font-size: 1.8vw;
     order: 2;
     width: 95%;
     text-align: left;
-    margin-left: 2%;
-    margin-top: 2%;
+    padding-left: 3%;
+    margin-top: 3%;
     margin-bottom: 2%;
   }
   .bottomright {
-    width: 100vw;
+    width: 60vw;
     margin: auto;
-    padding-left: 0;
     margin-left: -8%;
+    padding-left: 0;
     text-align: left;
     order: 1;
     flex-direction: column;
@@ -456,14 +487,13 @@ hr {
   .bottomlinks {
     font-size: 2.3vw;
     flex-direction: column;
-    margin-left: 1%;
   }
   .vertsep {
     display: none;
   }
   .horizsep {
     display: flex;
-    width: 85vw;
+    width: 80vw;
     margin: auto;
   }
 }
@@ -502,13 +532,15 @@ hr {
   color: white;
   width: 100vw;
   min-width: 100%;
-  height: 100vh;
+  height: auto;
   min-height: 20%;
   text-align: left;
   display: flex;
+  justify-content: center;
 }
 .sb1 {
   width: 50vw;
+  padding: 4%;
 }
 .sb2 {
   width: 50vw;
@@ -519,18 +551,18 @@ hr {
 .est {
   margin-left: 5%;
   margin-top: 3%;
-  font-size: 68px;
+  font-size: 55px;
   font-weight: 800;
 }
 .servinfo {
   width: 75%;
-  font-size: 44px;
+  font-size: 40px;
   margin-left: 5%;
   margin-top: 3%;
 }
 @media (max-width: 800px){
   .saab {
-    height: 150vh;
+    height: auto;
     text-align: center;
     flex-direction: column;
   }
@@ -540,6 +572,7 @@ hr {
     font-weight: 400;
     width: 50%;
     margin-top: 2%;
+    margin-left: auto;
   }
   .servinfo {
     width: 90vw;
@@ -547,6 +580,7 @@ hr {
     margin-left: 5%;
     margin-right: 5%;
     font-size: 25px;
+    margin-left: auto;
   }
   .sb1 {
     width: 95%;
@@ -559,7 +593,7 @@ hr {
     background-position-y: 8%;
   }
   .sa {
-    height: 40vh;
+    height: 35vh;
     width: 90vw;
   }
 }
@@ -570,8 +604,9 @@ hr {
   background-attachment: fixed;
   width: 100vw;
   min-width: 100%;
-  height: 90vh;
+  height: auto;
   min-height: 90%;
+  padding-top: 5%;
 }
 .spec {
   color: #2b2b2b;
@@ -587,11 +622,15 @@ hr {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 4%;
+  padding-bottom: 20%;
+  padding-top: 10%;
 }
 @media (max-width: 800px) {
   .boxes {
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 3%;
+    
   }
   .sb {
     height: 230vh;
@@ -648,7 +687,8 @@ hr {
 @media (max-width: 800px){
   .boxtext {
     font-size: 22px;
-    margin-top: 300px;
+    margin-top: 55vh;
   }
+ 
 }
 
