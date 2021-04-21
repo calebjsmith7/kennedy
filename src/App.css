@@ -374,6 +374,7 @@ hr {
 }
 .contact-left {
   width: 20vw;
+  padding-top: 5.5%;
 }
 .allcontact {
   display: flex;
@@ -394,6 +395,7 @@ hr {
     order: 2;
     margin-top: 25%;
     padding-bottom: 10%;
+    padding-top: 0;
   }
   .contact-middle {
     width: 80vw;
@@ -572,12 +574,14 @@ hr {
     height: auto;
     text-align: center;
     flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .est {
     font-size: 35px;
     margin: auto;
     font-weight: 400;
-    width: 50%;
+    width: 70%;
     margin-top: 2%;
     margin-left: auto;
   }
