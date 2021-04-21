@@ -99,6 +99,7 @@
   height: 90px;
   width: 155px;
   text-decoration: none;
+  margin-top: .75%;
 }
 .faketitle {
   text-decoration: none;
@@ -115,6 +116,7 @@
     height: 14vh;
     top: 1% !important;
     background-color: none;
+    margin-top: 0;
   }}
 
   /* home page */
