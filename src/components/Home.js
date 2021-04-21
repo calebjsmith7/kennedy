@@ -4,6 +4,7 @@ import '../App.css';
 import kenvid from "../images/kenvid.mp4";
 import kensmallvid from "../images/kensmallvid.mp4";
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 
 class Home extends Component {
@@ -11,7 +12,7 @@ class Home extends Component {
   render() {
     return (
         <div>
-            <a id="top">
+            <a id="top"></a>
             <div className="a">
                 <video playsInline webkit-playsinline autoPlay loop muted preload="true" id="bigvid" width="100%" className="video">
                 <source src={kenvid} type="video/mp4" media="(min-device-width: 568px)"></source>
@@ -20,7 +21,7 @@ class Home extends Component {
                 <source src={kensmallvid} type="video/mp4" media="(max-device-width: 568px)"></source>
                 </video>
             </div>
-            </a>
+            
             
             <div className="b">
                 <h1 className="info">At Kennedy Racecars we specialize in providing the highest quality
@@ -44,19 +45,19 @@ class Home extends Component {
             <div className="c">
                 <a id="restorations">
                     <h3 className="mods">RESTORATIONS</h3>
-                    <Link to="/contact"><button className="designyours btn btn-light">DESIGN YOURS</button></Link>
+                    <HashLink to="/contact#top"><button className="designyours btn btn-light">DESIGN YOURS</button></HashLink>
                 </a>
             </div>
             <div className="d">
                 <a id="mods">
                     <h3 className="mods">CUSTOM MODS</h3>
-                    <Link to="/contact"><button className="designyours btn btn-light">DESIGN YOURS</button></Link>
+                    <HashLink to="/contact#top"><button className="designyours btn btn-light">DESIGN YOURS</button></HashLink>
                 </a>
             </div>
             <div className="e">
                 <a id="racecars">
                     <h3 className="mods">RACE CARS</h3>
-                    <Link to="/contact"><button className="designyours btn btn-light">DESIGN YOURS</button></Link>
+                    <HashLink to="/contact#top"><button className="designyours btn btn-light">DESIGN YOURS</button></HashLink>
                 </a>
             </div>
         </div>

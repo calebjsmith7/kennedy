@@ -43,11 +43,11 @@ function handleCollapse() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto n nbg">
                 <li className="nav-item active"><HashLink to='/#top' className="nav-link l" onClick={handleCollapse}>HOME <span className="sr-only">(current)</span></HashLink></li>
-                <li className="nav-item active"><Link to='/services' className="nav-link l" onClick={handleCollapse}>ABOUT US</Link></li>
+                <li className="nav-item active"><HashLink to='/services#top' className="nav-link l" onClick={handleCollapse}>ABOUT US</HashLink></li>
                 <li className="nav-item active"><HashLink to='/#restorations' className="nav-link l" onClick={handleCollapse}>RESTORATIONS</HashLink></li>
                 <li className="nav-item active"><HashLink to='/#mods' className="nav-link l" onClick={handleCollapse}>MODS</HashLink></li>
                 <li className="nav-item active"><HashLink to='/#racecars' className="nav-link l" onClick={handleCollapse}>RACE CARS</HashLink></li>
-                <li className="nav-item active"><Link to='/contact' className="nav-link l" onClick={handleCollapse}>CONTACT</Link></li>
+                <li className="nav-item active"><HashLink to='/contact#top' className="nav-link l" onClick={handleCollapse}>CONTACT</HashLink></li>
             </ul>
         </div>
     

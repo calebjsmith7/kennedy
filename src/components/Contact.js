@@ -56,6 +56,7 @@ class Contact extends Component {
 
     return (
         <div className="contactpage container-fluid">
+          <a id="top"/>
             <div className="row allcontact">
           <div className="spacer"></div>
           <div className="contact-left">
