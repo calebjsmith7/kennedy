@@ -49,6 +49,9 @@
   .navbar-toggler {
     margin-right: 5%;
   }
+  .fa-bars {
+    font-size: 4.5vh;
+  }
 }
 .l {
   font-weight: bolder;
@@ -180,6 +183,7 @@
     font-size: 25px;
     margin: auto;
     padding: 1%;
+    padding-top: 1%;
     width: 88%;
   }
   .b {
@@ -324,7 +328,8 @@ hr {
 }
 @media (max-width: 800px){
   .mods {
-    padding-top: 45%;
+    padding-top: 50%;
+    font-size: 5.5vh;
   }
 
 }
@@ -553,12 +558,14 @@ hr {
   margin-top: 3%;
   font-size: 55px;
   font-weight: 800;
+  font-family: 'Montserrat';
 }
 .servinfo {
   width: 75%;
   font-size: 40px;
   margin-left: 5%;
   margin-top: 3%;
+  font-family: 'Montserrat';
 }
 @media (max-width: 800px){
   .saab {
@@ -614,6 +621,7 @@ hr {
   padding-top: 2%;
   text-align: left;
   padding-left: 5%;
+  font-family: 'Montserrat';
 }
 .boxes {
   display: flex;
@@ -630,6 +638,7 @@ hr {
     flex-direction: column;
     justify-content: space-between;
     padding-top: 3%;
+    padding-bottom: 10%;
     
   }
   .sb {
