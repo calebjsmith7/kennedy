@@ -47,7 +47,7 @@ function handleCollapse() {
                 <li className="nav-item active"><HashLink to='/#restorations' className="nav-link l" onClick={handleCollapse}>RESTORATIONS</HashLink></li>
                 <li className="nav-item active"><HashLink to='/#mods' className="nav-link l" onClick={handleCollapse}>MODS</HashLink></li>
                 <li className="nav-item active"><HashLink to='/#racecars' className="nav-link l" onClick={handleCollapse}>RACE CARS</HashLink></li>
-                <li className="nav-item active"><HashLink to='/contact#top' className="nav-link l" onClick={handleCollapse}>CONTACT</HashLink></li>
+                <li className="nav-item active"><Link to='/contact' className="nav-link l" onClick={handleCollapse}>CONTACT</Link></li>
             </ul>
         </div>
     

@@ -287,11 +287,11 @@ hr {
   background-image: url(./images/bluecar.jpg);
 }
 .d {
-  background-image: url(./images/car1-7.jpeg);
+  background-image: url(./images/steeringwheel.jpg);
   
 }
 .e {
-  background-image: url(./images/steeringwheel.jpg);
+  background-image: url(./images/car1-7.jpeg);
 }
 @media (max-width: 800px){
   .c {
@@ -372,7 +372,7 @@ hr {
 .contactpage {
   background-color: black;
   height: auto;
-  padding-bottom: 3%;
+  padding-bottom: 6%;
 }
 .contact-left {
   width: 20vw;

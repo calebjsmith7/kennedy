@@ -24,7 +24,7 @@ class Home extends Component {
             
             
             <div className="b">
-                <h1 className="info">At Kennedy Racecars we specialize in providing the highest quality
+                <h1 className="info">At Kennedy Racecars we provide the highest quality
                 Restorations, Modifications, and Race Cars
                 and always exceed expectations</h1>
             <hr className="binfoh"/>
