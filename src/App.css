@@ -93,7 +93,7 @@
   font-size: 23px !important;
   text-decoration: none !important;
   color: transparent;
-  background-image: url('./images/kenlogowht.png');
+  background-image: url('./images/kenlogo1.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 90px;
@@ -231,7 +231,9 @@ hr {
   background-repeat: no-repeat;
   background-position-y: 61%;
   overflow-y: hidden;
+  scroll-behavior: smooth;
 }
+
 .bottomscroll {
   height: 12vh;
   background-image: url(./images/gallerybg.jpg);
@@ -283,7 +285,13 @@ hr {
   background-image: url(./images/slidecars/slidecar10.png);
 }
 .slide11 {
+  background-image: url(./images/slidecars/slidecar11.png);
+}
+.slide12 {
   background-image: url(./images/slidecars/slidecar12.png);
+}
+.slide13 {
+  background-image: url(./images/slidecars/slidecar13.png);
 }
 .slide1 {
   margin-left: 1%;
@@ -465,11 +473,12 @@ hr {
 .bottomlogo {
   width: 10vw;
   height: 9vh;
-  background-image: url(./images/kenlogoblc.png);
+  background-image: url(./images/kenlogo1-blk.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
   margin-left: 3%;
+  margin-right: 2%;
   margin-top: auto;
   margin-bottom: auto;
 }
