@@ -243,14 +243,47 @@ hr {
   height: 450px;
   width: 450px;
   margin: auto;
-  margin-right: 1%;
-  margin-left: 3%;
+  margin-right: 5%;
+  margin-left: 5%;
   flex: 0 0 auto;
   background-color: transparent;
   background-image: url(./images/testcar2.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+.slide1 {
+  background-image: url(./images/slidecars/slidecar1.png);
+}
+.slide2 {
+  background-image: url(./images/slidecars/slidecar2.png);
+}
+.slide3 {
+  background-image: url(./images/slidecars/slidecar3.png);
+}
+.slide4 {
+  background-image: url(./images/slidecars/slidecar4.png);
+}
+.slide5 {
+  background-image: url(./images/slidecars/slidecar5.png);
+}
+.slide6 {
+  background-image: url(./images/slidecars/slidecar6.png);
+}
+.slide7 {
+  background-image: url(./images/slidecars/slidecar7.png);
+}
+.slide8 {
+  background-image: url(./images/slidecars/slidecar8.png);
+}
+.slide9 {
+  background-image: url(./images/slidecars/slidecar9.png);
+}
+.slide10 {
+  background-image: url(./images/slidecars/slidecar10.png);
+}
+.slide11 {
+  background-image: url(./images/slidecars/slidecar12.png);
 }
 .slide1 {
   margin-left: 1%;

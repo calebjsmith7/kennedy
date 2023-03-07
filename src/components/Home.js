@@ -38,6 +38,11 @@ class Home extends Component {
                 <div className="cards slide5"></div>
                 <div className="cards slide6"></div>
                 <div className="cards slide7"></div>
+                <div className="cards slide8"></div>
+                <div className="cards slide9"></div>
+                <div className="cards slide10"></div>
+                <div className="cards slide11"></div>
+        
             </div>
             <div className="bottomscroll"></div>
         
