@@ -89,7 +89,7 @@
   position: absolute !important;
   left: 50%;
   transform: translateX(-50%);
-  top: 4% !important;
+  top: 7% !important;
   font-size: 23px !important;
   text-decoration: none !important;
   color: transparent;
@@ -97,14 +97,15 @@
   background-size: contain;
   background-repeat: no-repeat;
   height: 90px;
-  width: 155px;
+  width: 275px;
   text-decoration: none;
   margin-top: .75%;
 }
 .faketitle {
   text-decoration: none;
   color: transparent;
-  font-size: 40px;
+  font-size: 60px;
+  letter-spacing: 35px;
 }
 .title :hover {
   color: transparent;
@@ -112,12 +113,16 @@
 }
 @media (max-width: 800px) {
   .title {
-    width: 30vw;
+    width: 150px;
     height: 14vh;
     top: 1% !important;
     background-color: none;
     margin-top: 0;
-  }}
+  }
+  .faketitle {
+    font-size: 15px;
+  }
+}
 
   /* home page */
 
@@ -231,7 +236,7 @@ hr {
   background-repeat: no-repeat;
   background-position-y: 61%;
   overflow-y: hidden;
-  scroll-behavior: smooth;
+  
 }
 
 .bottomscroll {
@@ -308,7 +313,10 @@ hr {
   .slide1 {
     margin-left: -220%;
   }
-  .slide1, .slide2, .slide3, .slide4, .slide5, .slide6 {
+  #flag {
+    margin-left: 0;
+  }
+  .slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9, .slide10, .slide11, .slide12, .slide13 {
     margin-right: 5%;
   }
   .gallery {
