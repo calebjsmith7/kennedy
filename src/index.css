@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +12,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: 'BN 3rd Place';
+  src: local('BN 3rd Place'),
+       url('./fonts/BN\ 3rd\ Place.ttf') format('ttf'),
+       url('./fonts/BN-3rd-Place.ttf.woff') format('woff'),
+       url('./fonts/BN-3rd-Place.ttf.eot') format('eot'),
+       url('./fonts/BN-3rd-Place.ttf.svg') format('svg');
 }

@@ -5,6 +5,8 @@ import kenvid from "../images/kenvid.mp4";
 import kensmallvid from "../images/kensmallvid.mp4";
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import kenlogo from '../images/kenlogo-tall.png';
+//import kenlogo from '../images/kenlogo-long-wht.png';
 
 const Home = () => {
 
@@ -34,7 +36,8 @@ const Home = () => {
                 <video playsInline webkit-playsinline autoPlay loop muted preload="true" id="smallvid" width="100%" className="video">
                 <source src={kensmallvid} type="video/mp4" media="(max-device-width: 568px)"></source>
                 </video>
-                <button style={{border: 'none', color: 'transparent', backgroundColor: 'transparent', outline: 'none'}} onClick={()=>window.scroll(0,document.querySelector('.b').getBoundingClientRect().top)}><h1 style={{position: 'absolute', top: '83%', left: '50%', zIndex: 1000, color: 'white', fontSize: 60}}>⌄</h1></button>
+                <img id='mobilelogo' src={kenlogo} style={{width: 350, position: 'absolute', top: window.innerHeight/2 - 50, left: window.innerWidth/2 - 175, maxWidth: '95%'}}/>
+                <button style={{border: 'none', color: 'transparent', backgroundColor: 'transparent', outline: 'none', position: 'absolute', top: '80%', left: window.innerWidth/2 - 50,}} onClick={()=>window.scroll(0,document.querySelector('.b').getBoundingClientRect().top)}><h1 id="moretext" style={{zIndex: 1000, color: 'white', fontSize: 35}}>MORE</h1><h1 style={{zIndex: 1000, color: 'white', fontSize: 60}}>⌄</h1></button>
             </div>
             
             
@@ -42,7 +45,7 @@ const Home = () => {
                 <h1 className="info">At Kennedy Race Cars, we are known for high quality craftsmanship and service on your race car, muscle car, or resto-mod dream machine.<br/>KRC will exceed your expectations!</h1>
             <hr className="binfoh"/>
             </div>
-            <div className="scrollsection"><h1 className="gallery">Gallery</h1></div>
+            <div className="scrollsection"><h1 className="gallery">PARTIAL GALLERY</h1></div>
             <div className="scrolling-wrapper" id="container" onScroll={handleScroll}>
             
                 <div className="cards slide1" id='resetflag'></div>

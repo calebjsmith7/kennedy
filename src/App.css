@@ -45,6 +45,8 @@
     margin-right: 5%;
     padding-right: 5%;
     padding-top: 2%;
+    background-color: #2b2b2b;
+    margin-top: 10vh;
   }
   .navbar-toggler {
     margin-right: 5%;
@@ -52,6 +54,7 @@
   .fa-bars {
     font-size: 4.5vh;
   }
+  
 }
 .l {
   font-weight: bolder;
@@ -67,12 +70,12 @@
 .left {
   display: inline-flex;
   margin: auto;
-  color: white;
+  color: transparent;
   margin-left: 3%;
   margin-right: 3%;
   font-weight: 900;
-  font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1px;
+  font-family: 'Permanent Marker', sans-serif;
   text-decoration: none;
 }
 @media only screen and (max-width: 900px){
@@ -93,11 +96,11 @@
   font-size: 23px !important;
   text-decoration: none !important;
   color: transparent;
-  background-image: url('./images/kenlogo1.png');
+  background-image: url('./images/kenlogo-long-wht.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 90px;
-  width: 275px;
+  width: 600px;
   text-decoration: none;
   margin-top: .75%;
 }
@@ -111,16 +114,24 @@
   color: transparent;
   text-decoration: none;
 }
+#mobilelogo {
+  display: none;
+}
 @media (max-width: 800px) {
   .title {
-    width: 150px;
+    position: absolute;
+    width: 50%;
     height: 14vh;
-    top: 1% !important;
+    top: 20% !important;
     background-color: none;
     margin-top: 0;
+    display: none !important;
   }
   .faketitle {
     font-size: 15px;
+  }
+  #mobilelogo {
+    display: block;
   }
 }
 
@@ -144,7 +155,10 @@
     display: none;
   }
 }
-
+#moretext {
+  font-family: 'BN 3rd Place';
+  font-weight: 800;
+}
 
 .a,.b,.c,.d,.e,.f {
   width: 100vw;
@@ -175,11 +189,12 @@
 }
 .info {
   margin: auto;
-  color: #2b2b2b;
+  color: #1e2427;
   font-weight: 400;
-  padding-top: 18%;
+  
+  padding-top: 17%;
   font-size: 31px;
-  font-family: 'Montserrat';
+  font-family: 'Cinzel';
   width: 60%;
 }
 .binfoh {
@@ -216,6 +231,8 @@ hr {
 }
 .gallery {
   color: white;
+  font-family: 'BN 3rd Place';
+  font-style: italic;
   text-align: left;
   padding-left: 4%;
   padding-top: 1.5%;
@@ -362,10 +379,10 @@ hr {
 /* front titles and design now buttons */
 .mods {
   color: white;
-  font-size: 7vh;
+  font-size: 9vh;
   padding-top: 10%;
   font-weight: 900;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'BN 3rd Place', 'Montserrat';
   font-style: italic;
 }
 .designyours {
@@ -490,18 +507,23 @@ hr {
   margin-top: auto;
   margin-bottom: auto;
 }
+
 .cw {
   display: flex;
+  flex-direction: column;
   margin-top: auto;
   margin-bottom: auto;
   font-size: 12px;
   font-weight: 800;
+  text-align: left;
+  font-family: 'Cinzel';
 }
 .bottomright {
-  width: 45vw;
+  width: 40vw;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 16%;
+  padding-left: 14%;
+  padding-right: 2%;
 }
 .bottomlinks {
   display: flex;
@@ -510,8 +532,12 @@ hr {
   list-style-type: none;
   margin: auto;
   justify-content: space-evenly;
+  font-family: 'Cinzel';
 }
 .horizsep {
+  display: none;
+}
+#mobileLogo {
   display: none;
 }
 @media (max-width: 800px){
@@ -554,6 +580,16 @@ hr {
     display: flex;
     width: 80vw;
     margin: auto;
+  }
+  #desktopLogo {
+    display: none;
+  }
+  #mobileLogo {
+    display: flex;
+    width: 25vw !important;
+    order: 2;
+    margin-left: 3%;
+    margin-top: 5%;
   }
 }
 

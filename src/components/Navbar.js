@@ -31,7 +31,7 @@ function handleCollapse() {
     return (
         <nav className="navbar navbar-dark navv fixed-top">
             <div className="mr-auto n left-box">
-                <HashLink className="nav-item active left" to="/#restorations">RESTORATIONS</HashLink>
+            <HashLink className="nav-item active left" to="/#restorations">RESTORATIONS</HashLink>
                 <HashLink className="nav-item active left" to="/#mods">MODS</HashLink>
                 <HashLink className="nav-item active left" to="/#racecars">RACE CARS</HashLink>
             </div>
