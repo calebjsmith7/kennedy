@@ -10,12 +10,24 @@ const Navbar = ({title}) =>{
         $(window).scroll(function(){
             var scroll = $(window).scrollTop();
             if (scroll > 100) {
-              $(".navbar").css("background" , "#2b2b2bd0");
-              $(".nbg").css("background" , "none");
+                if(window.innerWidth > 800){
+                    $(".navbar").css("background" , "#2b2b2bd0");
+                    $(".nbg").css("background" , "none");
+                } else if(window.innerWidth <= 800){
+                    $(".navbar").css("background" , "#2b2b2b");
+                    $(".nbg").css("background" , "none");
+                }
+              
             }
             else{
-                $(".navbar").css("background" , "none");
-                $(".nbg").css("background" , "#2b2b2b5b");  	
+                if(window.innerWidth > 800){
+                    $(".navbar").css("background" , "none");
+                    $(".nbg").css("background" , "#2b2b2b5b");  
+                } else if(window.innerWidth <= 800){
+                    $(".navbar").css("background" , "none");
+                    $(".nbg").css("background" , "#2b2b2b");
+                }
+                	
             }
         })
       })
@@ -48,6 +60,7 @@ function handleCollapse() {
                 <li className="nav-item active"><HashLink to='/#mods' className="nav-link l" onClick={handleCollapse}>MODS</HashLink></li>
                 <li className="nav-item active"><HashLink to='/#racecars' className="nav-link l" onClick={handleCollapse}>RACE CARS</HashLink></li>
                 <li className="nav-item active"><Link to='/contact' className="nav-link l" onClick={handleCollapse}>CONTACT</Link></li>
+                <li className="nav-item active"><Link to='/disclosure' className="nav-link l" onClick={handleCollapse}>DISCLAIMER</Link></li>
             </ul>
         </div>
     

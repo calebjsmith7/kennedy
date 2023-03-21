@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Lowermenu from './components/Lowermenu';
+import Disclosure from './components/Disclosure';
 import $ from 'jquery';
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
                   <Route exact path='/' component={Home} />
                   <Route exact path='/services' component={Services} />
                   <Route exact path='/contact' component={Contact} />
+                  <Route exact path='/disclosure' component={Disclosure} />
                 </Switch>
             </div>
           <Lowermenu />
